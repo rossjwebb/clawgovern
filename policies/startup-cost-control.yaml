@@ -1,0 +1,4 @@
+policy:
+  allowed_models: [gpt-4.5-turbo-mini, open-mixtral-8x22b]
+  max_daily_budget_per_agent: 5
+  require_human_in_loop_for_tools: [stripe_charge, aws_provision]

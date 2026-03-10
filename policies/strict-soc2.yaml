@@ -1,0 +1,4 @@
+policy:
+  allowed_models: [gpt-4.5-turbo, gpt-4-turbo]
+  max_daily_budget_per_agent: 50
+  require_human_in_loop_for_tools: [read_pii, export_logs]

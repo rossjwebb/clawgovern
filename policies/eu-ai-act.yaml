@@ -1,0 +1,4 @@
+policy:
+  allowed_models: [mistral-large-2407, claude-3.5-sonnet]
+  max_daily_budget_per_agent: 100
+  require_human_in_loop_for_tools: [database_write, email_send, customer_refund]
