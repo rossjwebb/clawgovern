@@ -1,0 +1,8 @@
+policy:
+  allowed_models:
+    - gpt-4.5-turbo
+    - claude-3.5-sonnet
+  max_daily_budget_per_agent: 50
+  require_human_in_loop_for_tools:
+    - stripe_refund
+    - db_drop
